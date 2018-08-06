@@ -4,7 +4,7 @@ Email: zeukkari@gmail.com
 
 Web: https://zeukkari.github.io
 
-Full Stack JavaScript Develope
+Full Stack JavaScript Developer
 
 ## SKILLS
 

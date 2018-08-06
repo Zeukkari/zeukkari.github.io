@@ -1,0 +1,244 @@
+{
+  "basics": {
+    "label": "Full Stack JavaScript Developer",
+    "email": "zeukkari@gmail.com",
+    "website": "https://zeukkari.github.io",
+    "name": "Timo Aho",
+    "summary": "Full Stack JavaScript Develope",
+    "picture": "profile.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "zeukkari",
+        "url": "https://www.linkedin.com/in/zeukkari/"
+      },
+      {
+        "network": "Twitter",
+        "username": "zeukkari",
+        "url": "https://twitter.com/zeukkari"
+      },
+      {
+        "network": "GitHub",
+        "username": "zeukkari",
+        "url": "https://github.com/zeukkari/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "zeukkari",
+        "url": "https://www.linkedin.com/in/zeukkari/"
+      },
+      {
+        "network": "Youtube",
+        "username": "zeukkari",
+        "url": "https://www.youtube.com/channel/UCufiF-DkJxuxBYuVk-CKIPg"
+      },
+      {
+        "network": "Sketchfab",
+        "username": "zeukkari",
+        "url": "https://sketchfab.com/zeukkari"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Siili Solutions",
+      "website": "https://siili.com",
+      "position": "Consultant",
+      "startDate": "2017-02",
+      "summary": "Technology consulting and software development. Initial focus on 3D technologies, Mixed Reality research and prototyping. Current focus on Full Stack JavaScript.",
+      "highlights": [
+        "Envisioning Experience Tribe member. I've been learning designer skills such storytelling, typography, UI design, UX desig, and design systems.",
+        "Focus on latest web technologies and full stack JavaScript. Some of the frameworks and libraries that I'm currently using include: React, Redux, Webpack, GraphQL, ESLint, Babel, ES6.",
+        "Participated in Lemminkäinen InfraHack hackathon was selected to pilot a HoloLens based solution for pavement industry."
+      ]
+    },
+    {
+      "company": "Zoan Oy",
+      "website": "https://zoan.fi/",
+      "position": "Contractor",
+      "startDate": "2017-01",
+      "endDate": "2017-02",
+      "summary": "Virtual Reality content creation with Unreal Engine.",
+      "highlights": "https://helsinki2020.fi/"
+    },
+    {
+      "company": "Session Software Ltd",
+      "website": "http://sessio.mobi/",
+      "position": "Contractor",
+      "startDate": "2016-08",
+      "endDate": "2016-10",
+      "summary": "Back-End development for visual collaboration tool app. SaaS architecture, Node.js, CouchDB.",
+      "highlights": "http://skyhigh.vc/"
+    },
+    {
+      "company": "3D Render Oy",
+      "website": "http://www.3drender.fi/",
+      "position": "Contractor",
+      "startDate": "2016-09",
+      "endDate": "2016-10",
+      "summary": "VR/AR content creation for architectural visualization. Worked with hand held AR and Unity Game Engine."
+    },
+    {
+      "company": "Houston Inc",
+      "website": "https://www.houston-inc.com/",
+      "position": "Senior Consultant",
+      "startDate": "2016-02",
+      "endDate": "2016-03",
+      "summary": "Front-End development for IoT applications. Work with Angular framework."
+    },
+    {
+      "company": "City of Helsinki",
+      "website": "https://dev.hel.fi/",
+      "position": "Kumppanikoodari (Software Engineer)",
+      "startDate": "2015-06",
+      "endDate": "2015-12",
+      "summary": "Software developer working primarily on (Service Map)[https://palvelukartta.hel.fi/].",
+      "highlights": [
+        "Software development for Six City Strategy(6Aika). Broad goals were open innovation platforms, open data and interfaces, and open participation and customership.",
+        "Open source: git/github, open source development principles, open source licencing",
+        "Web technologies: JavaScript, CoffeeScript, Node.js, REST API's, GIS."
+      ]
+    },
+    {
+      "company": "Portalify",
+      "website": "http://www.portalify.com/",
+      "position": "Software Engineer",
+      "startDate": "2012",
+      "endDate": "2014",
+      "summary": "Lead Front-End Developer. Developed web front-end for TETRA network applications and location tracking.",
+      "highlights": [
+        "GIS Software, Tetra networks, Continuous Integration, Message Queues, Distributed software architectures, Virtualization.",
+        "JavaScript, Perl, Jenkins, Git, RabbitMQ, Jenkins"
+      ]
+    },
+    {
+      "company": "Meshcom Technologies",
+      "position": "Software Engineer",
+      "startDate": "2010",
+      "endDate": "2012",
+      "summary": "Work on web based administration tool for an embedded Linux access point device.",
+      "highlights": [
+        "Embedded Linux, Network protocols",
+        "Programming: Bash, C, JavaScript"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Helsinki University",
+      "gpa": "3",
+      "courses": [
+        "Programming fundamentals",
+        "Java",
+        "C",
+        "Databases",
+        "Shell scripting",
+        "Web programming",
+        "Data structures and algorithms",
+        "Networks and Communications",
+        "TCP/IP Protocol stack",
+        "Security",
+        "Software Development Methodologies",
+        "Agile Methodologies",
+        "Usability",
+        "Interface Technologies",
+        "Introduction to Artificial Intelligence",
+        "Introduction to Statistics",
+        "Linearalgebra and Matrix Calculus"
+      ],
+      "startDate": "2004-09",
+      "endDate": "2009-06",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-end",
+      "level": "advanced",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "ES6",
+        "Bootstrap",
+        "Tachyons",
+        "SASS",
+        "React",
+        "Redux",
+        "Gatsby"
+      ]
+    },
+    {
+      "name": "Back-end",
+      "level": "intermediate",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "OAuth",
+        "RESTFul APIs",
+        "GraphQL",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "intermediate",
+      "keywords": [
+        "Node.js Ecosystem",
+        "Webpack",
+        "Docker",
+        "Jenkins",
+        "Robot Framework",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "basic",
+      "keywords": [
+        "Atomic Design",
+        "Material Design",
+        "Grommet"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "summary": "Regular GitHub user and tinkerer.",
+      "keywords": [
+        "GitHub",
+        "git",
+        "GitHub Desktop (OS X)",
+        "LFS",
+        "GitHub API"
+      ]
+    },
+    {
+      "name": "Mixed Reality",
+      "summary": "Devoted the last three years of my life studying VR/AR.",
+      "keywords": [
+        "Virtual Reality",
+        "Augmented Reality"
+      ]
+    },
+    {
+      "name": "Automation",
+      "summary": "I have a RaspberryPi powered ongoing home automation project.",
+      "keywords": [
+        "IoT",
+        "Voice Control"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Finnish",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "fluent"
+    }
+  ]
+}

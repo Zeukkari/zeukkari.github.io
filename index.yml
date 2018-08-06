@@ -1,0 +1,226 @@
+name: 'Timo Aho'
+info:
+  label: 'Full Stack JavaScript Developer'
+  image: profile.png
+  brief: 'Full Stack JavaScript Develope'
+contact:
+  email: zeukkari@gmail.com
+  website: 'https://zeukkari.github.io'
+meta:
+  format: FRESH@^1.0.0-beta
+  modified: '2018-08-06T03:53:23.568Z'
+location:
+  city: Helsinki
+  country: FI
+employment:
+  history:
+    -
+      position: Consultant
+      employer: 'Siili Solutions'
+      summary: 'Technology consulting and software development. Initial focus on 3D technologies, Mixed Reality research and prototyping. Current focus on Full Stack JavaScript.'
+      current: true
+      start: 2017-02
+      url: 'https://siili.com'
+      keywords: []
+      highlights:
+        - 'Envisioning Experience Tribe member. I''ve been learning designer skills such storytelling, typography, UI design, UX desig, and design systems.'
+        - 'Focus on latest web technologies and full stack JavaScript. Some of the frameworks and libraries that I''m currently using include: React, Redux, Webpack, GraphQL, ESLint, Babel, ES6.'
+        - 'Participated in Lemminkäinen InfraHack hackathon was selected to pilot a HoloLens based solution for pavement industry.'
+    -
+      position: Contractor
+      employer: 'Zoan Oy'
+      summary: 'Virtual Reality content creation with Unreal Engine.'
+      start: 2017-01
+      end: 2017-02
+      url: 'https://zoan.fi/'
+      keywords: []
+      highlights: 'https://helsinki2020.fi/'
+    -
+      position: Contractor
+      employer: 'Session Software Ltd'
+      summary: 'Back-End development for visual collaboration tool app. SaaS architecture, Node.js, CouchDB.'
+      start: 2016-08
+      end: 2016-10
+      url: 'http://sessio.mobi/'
+      keywords: []
+      highlights: 'http://skyhigh.vc/'
+    -
+      position: Contractor
+      employer: '3D Render Oy'
+      summary: 'VR/AR content creation for architectural visualization. Worked with hand held AR and Unity Game Engine.'
+      start: 2016-09
+      end: 2016-10
+      url: 'http://www.3drender.fi/'
+      keywords: []
+    -
+      position: 'Senior Consultant'
+      employer: 'Houston Inc'
+      summary: 'Front-End development for IoT applications. Work with Angular framework.'
+      start: 2016-02
+      end: 2016-03
+      url: 'https://www.houston-inc.com/'
+      keywords: []
+    -
+      position: 'Kumppanikoodari (Software Engineer)'
+      employer: 'City of Helsinki'
+      summary: 'Software developer working primarily on (Service Map)[https://palvelukartta.hel.fi/].'
+      start: 2015-06
+      end: 2015-12
+      url: 'https://dev.hel.fi/'
+      keywords: []
+      highlights:
+        - 'Software development for Six City Strategy(6Aika). Broad goals were open innovation platforms, open data and interfaces, and open participation and customership.'
+        - 'Open source: git/github, open source development principles, open source licencing'
+        - 'Web technologies: JavaScript, CoffeeScript, Node.js, REST API''s, GIS.'
+    -
+      position: 'Software Engineer'
+      employer: Portalify
+      summary: 'Lead Front-End Developer. Developed web front-end for TETRA network applications and location tracking.'
+      start: '2012'
+      end: '2014'
+      url: 'http://www.portalify.com/'
+      keywords: []
+      highlights:
+        - 'GIS Software, Tetra networks, Continuous Integration, Message Queues, Distributed software architectures, Virtualization.'
+        - 'JavaScript, Perl, Jenkins, Git, RabbitMQ, Jenkins'
+    -
+      position: 'Software Engineer'
+      employer: 'Meshcom Technologies'
+      summary: 'Work on web based administration tool for an embedded Linux access point device.'
+      start: '2010'
+      end: '2012'
+      keywords: []
+      highlights:
+        - 'Embedded Linux, Network protocols'
+        - 'Programming: Bash, C, JavaScript'
+education:
+  level: ""
+  history:
+    -
+      institution: 'Helsinki University'
+      start: 2004-09
+      end: 2009-06
+      grade: '3'
+      curriculum:
+        - 'Programming fundamentals'
+        - Java
+        - C
+        - Databases
+        - 'Shell scripting'
+        - 'Web programming'
+        - 'Data structures and algorithms'
+        - 'Networks and Communications'
+        - 'TCP/IP Protocol stack'
+        - Security
+        - 'Software Development Methodologies'
+        - 'Agile Methodologies'
+        - Usability
+        - 'Interface Technologies'
+        - 'Introduction to Artificial Intelligence'
+        - 'Introduction to Statistics'
+        - 'Linearalgebra and Matrix Calculus'
+      summary: ""
+      area: 'Computer Science'
+      studyType: 'Bachelor of Science'
+skills:
+  sets:
+    -
+      name: Front-end
+      level: advanced
+      skills:
+        - HTML5
+        - CSS3
+        - ES6
+        - Bootstrap
+        - Tachyons
+        - SASS
+        - React
+        - Redux
+        - Gatsby
+    -
+      name: Back-end
+      level: intermediate
+      skills:
+        - Node.js
+        - Express
+        - OAuth
+        - 'RESTFul APIs'
+        - GraphQL
+        - RabbitMQ
+    -
+      name: DevOps
+      level: intermediate
+      skills:
+        - 'Node.js Ecosystem'
+        - Webpack
+        - Docker
+        - Jenkins
+        - 'Robot Framework'
+        - Ansible
+    -
+      name: Design
+      level: basic
+      skills:
+        - 'Atomic Design'
+        - 'Material Design'
+        - Grommet
+social:
+  -
+    label: LinkedIn
+    network: LinkedIn
+    url: 'https://www.linkedin.com/in/zeukkari/'
+    user: zeukkari
+  -
+    label: Twitter
+    network: Twitter
+    url: 'https://twitter.com/zeukkari'
+    user: zeukkari
+  -
+    label: GitHub
+    network: GitHub
+    url: 'https://github.com/zeukkari/'
+    user: zeukkari
+  -
+    label: LinkedIn
+    network: LinkedIn
+    url: 'https://www.linkedin.com/in/zeukkari/'
+    user: zeukkari
+  -
+    label: Youtube
+    network: Youtube
+    url: 'https://www.youtube.com/channel/UCufiF-DkJxuxBYuVk-CKIPg'
+    user: zeukkari
+  -
+    label: Sketchfab
+    network: Sketchfab
+    url: 'https://sketchfab.com/zeukkari'
+    user: zeukkari
+interests:
+  -
+    name: 'Open Source'
+    summary: 'Regular GitHub user and tinkerer.'
+    keywords:
+      - GitHub
+      - git
+      - 'GitHub Desktop (OS X)'
+      - LFS
+      - 'GitHub API'
+  -
+    name: 'Mixed Reality'
+    summary: 'Devoted the last three years of my life studying VR/AR.'
+    keywords:
+      - 'Virtual Reality'
+      - 'Augmented Reality'
+  -
+    name: Automation
+    summary: 'I have a RaspberryPi powered ongoing home automation project.'
+    keywords:
+      - IoT
+      - 'Voice Control'
+languages:
+  -
+    language: Finnish
+    level: native
+  -
+    language: English
+    level: fluent

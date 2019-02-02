@@ -1,11 +1,18 @@
 {
   "basics": {
-    "label": "Full Stack JavaScript Developer",
-    "email": "zeukkari@gmail.com",
-    "website": "https://zeukkari.github.io",
     "name": "Timo Aho",
-    "summary": "Full Stack JavaScript Developer",
-    "picture": "profile.png",
+    "email": "timo.aho@pm.me",
+    "phone": "+358 443 366 242",
+    "label": "Full Stack JavaScript Developer",
+    "summary": "Experienced Software Specialist with a demonstrated history of working in the information technology and services industry. Strong information technology professional skilled in WebGL, Continuous Integration, C#, Scrum, and Web Applications.",
+    "picture": "https://www.gravatar.com/avatar/4797229f434ff9bff9d9848a6b05cc55",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Helsinki",
+      "countryCode": "FI",
+      "region": ""
+    },
     "profiles": [
       {
         "network": "LinkedIn",
@@ -13,85 +20,129 @@
         "url": "https://www.linkedin.com/in/zeukkari/"
       },
       {
-        "network": "Twitter",
-        "username": "zeukkari",
-        "url": "https://twitter.com/zeukkari"
-      },
-      {
         "network": "GitHub",
         "username": "zeukkari",
         "url": "https://github.com/zeukkari/"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "zeukkari",
-        "url": "https://www.linkedin.com/in/zeukkari/"
-      },
-      {
-        "network": "Youtube",
-        "username": "zeukkari",
-        "url": "https://www.youtube.com/channel/UCufiF-DkJxuxBYuVk-CKIPg"
-      },
-      {
-        "network": "Sketchfab",
-        "username": "zeukkari",
-        "url": "https://sketchfab.com/zeukkari"
       }
     ]
   },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Expert",
+      "keywords": [
+        "React",
+        "Redux",
+        "ES6",
+        "Webpack",
+        "TypeScript",
+        "Jest",
+        "Node",
+        "Lodash",
+        "Babel"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Expert",
+      "keywords": [
+        "Node.js",
+        "REST",
+        "Express",
+        "GraphQL",
+        "Serverless Architectures",
+        "Heroku"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Expert",
+      "keywords": ["HTML5", "CSS3", "Javascript", "WebGL", "WebAssembly"]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "C",
+        "C#",
+        "C++",
+        "Bash",
+        "Java",
+        "JavaScript",
+        "Perl",
+        "Python"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "keywords": [
+        "Agile Methodologies",
+        "Kanban",
+        "Scrum",
+        "Test Driven Development",
+        "Continuous Integration",
+        "Continuous Deployment",
+        "JIRA",
+        "Git",
+        "Jenkins"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "3D Technologies",
+      "keywords": [
+        "Unity Engine",
+        "Unreal Engine",
+        "OpenGL",
+        "Shader Programming",
+        "Graphics Programming",
+        "Photogrammetry",
+        "Computer Vision",
+        "Virtual Reality",
+        "Augmented Reality"
+      ]
+    }
+  ],
+
   "work": [
+    {
+      "company": "Compile Oy",
+      "website": "https://compile.fi",
+      "position": "Software Specialist",
+      "startDate": "2018-10-23",
+      "endDate": "2019-01-02",
+      "summary": "asd",
+      "highlights": []
+    },
     {
       "company": "Siili Solutions",
       "website": "https://siili.com",
       "position": "Consultant",
-      "startDate": "2017-02",
-      "summary": "Technology consulting and software development. Initial focus on 3D technologies, Mixed Reality research and prototyping. Current focus on Full Stack JavaScript.",
+      "startDate": "2017-02-01",
+      "endDate": "2018-10-22",
+      "summary": "asd",
+      "highlights": []
+    },
+    {
+      "company": "Self-employed",
+      "website": "asd",
+      "position": "Various",
+      "startDate": "2016-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Learning new things.",
       "highlights": [
-        "Envisioning Experience Tribe member. I've been learning designer skills such storytelling, typography, UI design, UX desig, and design systems.",
-        "Focus on latest web technologies and full stack JavaScript. Some of the frameworks and libraries that I'm currently using include: React, Redux, Webpack, GraphQL, ESLint, Babel, ES6.",
-        "Participated in Lemminkäinen InfraHack hackathon was selected to pilot a HoloLens based solution for pavement industry."
+        "Virtual Reality content creation with Unreal Engine.",
+        "Back-End development for visual collaboration tool app.",
+        "AR content creation with Unity Engine.",
+        "Zoan Oy, 3D Render Oy, Session Software Ltd, Finnish Virtual Reality Association"
       ]
-    },
-    {
-      "company": "Zoan Oy",
-      "website": "https://zoan.fi/",
-      "position": "Contractor",
-      "startDate": "2017-01",
-      "endDate": "2017-02",
-      "summary": "Virtual Reality content creation with Unreal Engine.",
-      "highlights": "https://helsinki2020.fi/"
-    },
-    {
-      "company": "Session Software Ltd",
-      "website": "http://sessio.mobi/",
-      "position": "Contractor",
-      "startDate": "2016-08",
-      "endDate": "2016-10",
-      "summary": "Back-End development for visual collaboration tool app. SaaS architecture, Node.js, CouchDB.",
-      "highlights": "http://skyhigh.vc/"
-    },
-    {
-      "company": "3D Render Oy",
-      "website": "http://www.3drender.fi/",
-      "position": "Contractor",
-      "startDate": "2016-09",
-      "endDate": "2016-10",
-      "summary": "VR/AR content creation for architectural visualization. Worked with hand held AR and Unity Game Engine."
-    },
-    {
-      "company": "Houston Inc",
-      "website": "https://www.houston-inc.com/",
-      "position": "Senior Consultant",
-      "startDate": "2016-02",
-      "endDate": "2016-03",
-      "summary": "Front-End development for IoT applications. Work with Angular framework."
     },
     {
       "company": "City of Helsinki",
       "website": "https://dev.hel.fi/",
       "position": "Kumppanikoodari (Software Engineer)",
-      "startDate": "2015-06",
-      "endDate": "2015-12",
+      "startDate": "2015-06-01",
+      "endDate": "2015-12-01",
       "summary": "Software developer working primarily on (Service Map)[https://palvelukartta.hel.fi/].",
       "highlights": [
         "Software development for Six City Strategy(6Aika). Broad goals were open innovation platforms, open data and interfaces, and open participation and customership.",
@@ -103,8 +154,8 @@
       "company": "Portalify",
       "website": "http://www.portalify.com/",
       "position": "Software Engineer",
-      "startDate": "2012",
-      "endDate": "2014",
+      "startDate": "2012-01-01",
+      "endDate": "2014-01-01",
       "summary": "Lead Front-End Developer. Developed web front-end for TETRA network applications and location tracking.",
       "highlights": [
         "GIS Software, Tetra networks, Continuous Integration, Message Queues, Distributed software architectures, Virtualization.",
@@ -114,8 +165,8 @@
     {
       "company": "Meshcom Technologies",
       "position": "Software Engineer",
-      "startDate": "2010",
-      "endDate": "2012",
+      "startDate": "2010-01-01",
+      "endDate": "2012-01-01",
       "summary": "Work on web based administration tool for an embedded Linux access point device.",
       "highlights": [
         "Embedded Linux, Network protocols",
@@ -126,7 +177,7 @@
   "education": [
     {
       "institution": "Helsinki University",
-      "gpa": "3",
+      "gpa": "3.0",
       "courses": [
         "Programming fundamentals",
         "Java",
@@ -146,99 +197,24 @@
         "Introduction to Statistics",
         "Linearalgebra and Matrix Calculus"
       ],
-      "startDate": "2004-09",
-      "endDate": "2009-06",
-      "area": "Computer Science",
+      "startDate": "2004-09-01",
+      "endDate": "2009-06-01",
+      "area": "Department of Computer Science",
       "studyType": "Bachelor of Science"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Front-end",
-      "level": "advanced",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "ES6",
-        "Bootstrap",
-        "Tachyons",
-        "SASS",
-        "React",
-        "Redux",
-        "Gatsby"
-      ]
-    },
-    {
-      "name": "Back-end",
-      "level": "intermediate",
-      "keywords": [
-        "Node.js",
-        "Express",
-        "OAuth",
-        "RESTFul APIs",
-        "GraphQL",
-        "RabbitMQ"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "intermediate",
-      "keywords": [
-        "Node.js Ecosystem",
-        "Webpack",
-        "Docker",
-        "Jenkins",
-        "Robot Framework",
-        "Ansible"
-      ]
-    },
-    {
-      "name": "Design",
-      "level": "basic",
-      "keywords": [
-        "Atomic Design",
-        "Material Design",
-        "Grommet"
-      ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Open Source",
-      "summary": "Regular GitHub user and tinkerer.",
-      "keywords": [
-        "GitHub",
-        "git",
-        "GitHub Desktop (OS X)",
-        "LFS",
-        "GitHub API"
-      ]
-    },
-    {
-      "name": "Mixed Reality",
-      "summary": "Devoted the last three years of my life studying VR/AR.",
-      "keywords": [
-        "Virtual Reality",
-        "Augmented Reality"
-      ]
-    },
-    {
-      "name": "Automation",
-      "summary": "I have a RaspberryPi powered ongoing home automation project.",
-      "keywords": [
-        "IoT",
-        "Voice Control"
-      ]
     }
   ],
   "languages": [
     {
       "language": "Finnish",
-      "level": "native"
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "level": "fluent"
+      "fluency": "Fluent"
     }
-  ]
+  ],
+  "awards": [],
+  "references": [],
+  "publications": [],
+  "volunteer": []
 }

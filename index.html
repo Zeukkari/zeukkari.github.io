@@ -1,539 +1,296 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+<head>
+	<meta name="generator" content="Hugo 0.55.1" />
+	<title>
+			
+			
+					Timo Aho
+			
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+	<link rel="stylesheet" type="text/css" href="https://portfolio-draft-zeukkari.herokuapp.com/css/styles.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
+	<link rel="stylesheet" href="https://portfolio-draft-zeukkari.herokuapp.com/css/highlight.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+	
+	<meta name="author" content="Timo Aho">
+	<meta name="theme-color" content="#000000">
+
+	
+    <link href="https://portfolio-draft-zeukkari.herokuapp.com/index.xml" rel="alternate" type="application/rss+xml" title="Timo Aho" />
+    <link href="https://portfolio-draft-zeukkari.herokuapp.com/index.xml" rel="feed" type="application/rss+xml" title="Timo Aho" />
+	
+	
+	
+<meta itemprop="name" content="Timo Aho">
+<meta itemprop="description" content="">
+
+<meta name="og:title" content="Timo Aho">
+<meta name="og:description" content="">
+<meta name="og:type" content="article">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Timo Aho">
+<meta name="twitter:description" content="">
+
+<meta name="article:author" content="Timo Aho">
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https:\/\/portfolio-draft-zeukkari.herokuapp.com\/",
+    "name": "Timo Aho",
+    "author": {
+        "@type": "Person",
+        "name": "Timo Aho"
+    },
+    "description": "",
+}
+</script>
+ 
+
+
+</head>
+<body class="clearfix">
+
+
+<section id="sidebar" class="sidebar d-flex align-items-center p-5">
+  <div class="main-info">
+
+    <img src="https://portfolio-draft-zeukkari.herokuapp.com/images/avatar.png" class="rounded-circle mb-3" width="160px">
+
+    <h1 class="heading">What is the value of  <span class="highlight">business?</span></h1>
+    <p class="text-muted">Nice to meet you! My name is Timo Aho. I&#39;m a software engineer.</p>
+
+    <div class="social my-4">
+
+      
+        <a target="_blank" href="https://github.com/zeukkari/">
+          <i class="fab fa-github"></i>
+        </a>
+      
+        <a target="_blank" href="https://www.linkedin.com/in/zeukkari/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      
+        <a target="_blank" href="https://sketchfab.com/zeukkari">
+          <i class="fab fa-sketchfab"></i>
+        </a>
+      
+        <a target="_blank" href="https://twitter.com/Zeukkari">
+          <i class="fab fa-twitter"></i>
+        </a>
+      
+        <a target="_blank" href="https://www.youtube.com/channel/UCufiF-DkJxuxBYuVk-CKIPg">
+          <i class="fab fa-youtube"></i>
+        </a>
+      
+      
+    </div>
     
-    <head>
-        <meta charset="utf-8">
-        <title>Timo Aho</title>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
-        rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <style>
-            * {
-              box-sizing: border-box;
-            }
-            
-            main {
-              display: block;
-            }
-            
-            body {
-              font-size: 15px;
-              color: #333;
-              line-height: 1.42857143;
-              background-color: #F0F0F0;
-              margin: 0;
-              padding: 0;
-              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
-            }
-            
-            /* Typical page borders are awkward when rendered to PDF. */
-            body.pdf {
-              background-color: #FFFFFF;
-            }
-            
-            /* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
-            the PDF case, <main> for the HTML case, and style both via an ID. */
-            #main {
-              background-color: #FFF;
-              margin: 10px;
-              padding: 10px;
-              border: 1px solid #E6E6E6;
-            }
-            
-            body.pdf > #main {
-              border: none;
-            }
-            
-            #container > header {
-              padding-top: 6em;
-              padding-bottom: 1em;
-            }
-            
-            body.pdf #container > header {
-              padding: 0;
-            }
-            
-            #main > #container > section {
-              margin-left: 150px;
-              position: relative;
-              display: block;
-            }
-            
-            section > div {
-              margin-bottom: 60px;
-            }
-            
-            span.fa
-            {
-              font-size: 56px;
-              position: absolute;
-              top: 37px;
-              transform: translateY(-50%);
-              left: -100px;
-              color: #1a4367;
-            }
-            
-            hr {
-              margin-top: 20px;
-              margin-bottom: 20px;
-              border: 0;
-              border-top: 1px solid #EEE;
-            }
-            
-            .tenure, .keywords {
-              font-size: 75%;
-            }
-            
-            h1 {
-              margin: 0;
-              font-size: 46px;
-              display: inline-block;
-            }
-            
-            h2 {
-              font-size: 30px;
-              color: #4376a2;
-              text-transform: uppercase;
-              font-weight: normal;
-              padding-top: 20px;
-              margin-bottom: 60px;
-            }
-            
-            h3 {
-              margin-bottom: 0;
-              font-size: 18px;
-            }
-            
-            a, a:visited {
-              color: #428BCA;
-              text-decoration: none;
-              font-weight: bold;
-            }
-            
-            a:hover {
-              text-decoration: underline;
-            }
-            
-            .defunct {
-              color: #989898;
-              font-weight: bold;
-            }
-            
-            #summary {
-              font-size: 150%;
-              margin-left: 0;
-              padding: 20px 0;
-            }
-            
-            #summary > p > strong {
-              font-size: 1.25em;
-            }
-            
-            #contact {
-              float: right;
-            }
-            
-            #summary > header > .fa-info {
-              font-size: 70px;
-              letter-spacing: 5px;
-              text-transform: uppercase;
-              font-weight: normal;
-              top: 50%;
-              left: -85px;
-              transform: translateY(-50%);
-            }
-            
-            #summary h2 {
-              display: none;
-            }
-            
-            
-            .label-keyword {
-              display: inline-block;
-              background: #e8f4ff;
-              color: black;
-              font-size: 0.9em;
-              padding: 5px;
-              border: 1px solid #357ebd;
-              border-radius: 5px;
-              margin-top: 2px;
-              font-weight: bold;
-              text-align: center;
-            }
-            
-            .notes {
-              font-size: 10px;
-              display: block;
-              font-weight: normal;
-              text-transform: uppercase;
-            }
-            
-            .card-skills {
-                position: relative;
-            }
-            .card-nested {
-                min-height: 0;
-                margin-bottom: 10px;
-                border-width: 1px 0 0 0;
-            }
-            .card {
-                background: #FFF;
-                border-radius: 3px;
-                padding: 10px;
-            }
-            
-            .skill-level {
-              border-radius: 3px;
-              position: absolute;
-              top: 10px;
-              bottom: 10px;
-              left: 0;
-              width: 10px;
-              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
-            }
-            .skill-level .skill-progress {
-              position: absolute;
-              border-radius: 3px;
-              bottom: 0;
-              width: 100%;
-              -webkit-transition: height 1s ease;
-            }
-            .skill-level .skill-progress.beginner {
-              height: 50%;
-              background: #e74c3c;
-            }
-            .skill-level .skill-progress.intermediate {
-              height: 70%;
-              background: #f1c40f;
-            }
-            .skill-level .skill-progress.advanced {
-              height: 80%;
-              background: #428bca;
-            }
-            .skill-level .skill-progress.master {
-              height: 95%;
-              background: #5cb85c;
-            }
-            .skill-info {
-              margin-left: 10px;
-            }
-            @media (max-width: 480px) {
-              .skill-info {
-                margin-left: 20px;
-              }
-            }
-            .skill-info > strong {
-              font-weight: 400;
-              font-size: 24px;
-              color: #1d1d1d;
-              line-height: 24px;
-            }
-            
-            .list-unstyled {
-              padding-left: 0;
-              list-style: none;
-            }
-            
-            .card-skills {
-              position: relative;
-            }
-            
-            .space-top {
-                margin-top: 5px;
-            }
-            
-            #container {
-              max-width: 800px;
-              margin: 0 auto;
-            }
-            
-            #elevator-pitch {
-              text-align: center;
-              font-size: 24px;
-              color: #BFC1C3;
-              text-transform: uppercase;
-              font-weight: normal;
-            }
-            
-            .res-label {
-              font-style: italic;
-            }
-        </style>
-    </head>
+    <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
+
     
-    <body>
-        <main id="main">
-            <div id="container">
-                <header>
-                     <h1>Timo Aho</h1>
-                    <div id="contact">
-                        <div class="email"><a href="mailto:zeukkari@gmail.com">zeukkari@gmail.com</a>
-                        </div>
-                        <div class="website"><a href="https://zeukkari.github.io">https://zeukkari.github.io</a>
-                        </div>
-                    </div>
-                </header>
-                <hr>
-                <section id="summary">
-                    <header> <span class="fa fa-lg fa-info"></span> 
-                         <h2>info</h2>
+  </div>
+</section>
 
-                    </header>Full Stack JavaScript Developer</section>
-                <hr>
-                <section id="skills">
-                    <header>
-                         <h2>Skills</h2>
-                    </header> <span class="fa fa-lg fa-code"></span>
-                    <ul class="list-unstyled">
-                        <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
-                                <div class="skill-progress advanced"></div>
-                            </div>
-                            <div class="skill-info"> <strong>Front-end</strong>
-                                <div class="space-top labels">
-                                    <div class="label label-keyword"> <span class="kw">HTML5</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">CSS3</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">ES6</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Bootstrap</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Tachyons</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">SASS</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">React</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Redux</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Gatsby</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
-                                <div class="skill-progress intermediate"></div>
-                            </div>
-                            <div class="skill-info"> <strong>Back-end</strong>
-                                <div class="space-top labels">
-                                    <div class="label label-keyword"> <span class="kw">Node.js</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Express</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">OAuth</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">RESTFul APIs</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">GraphQL</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">RabbitMQ</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
-                                <div class="skill-progress intermediate"></div>
-                            </div>
-                            <div class="skill-info"> <strong>DevOps</strong>
-                                <div class="space-top labels">
-                                    <div class="label label-keyword"> <span class="kw">Node.js Ecosystem</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Webpack</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Docker</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Jenkins</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Robot Framework</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Ansible</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="basic" data-placement="left">
-                                <div class="skill-progress basic"></div>
-                            </div>
-                            <div class="skill-info"> <strong>Design</strong>
-                                <div class="space-top labels">
-                                    <div class="label label-keyword"> <span class="kw">Atomic Design</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Material Design</span>
-                                    </div>
-                                    <div class="label label-keyword"> <span class="kw">Grommet</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-                <hr>
-                <section id="employment">
-                    <header> <span class="fa fa-lg fa-building"></span> 
-                         <h2>employment</h2>
+<div class="main-content">
+	
 
-                    </header>
-                    <div>
-                         <h3><em>Consultant</em>,
+<section id="skills" class="aqua text-light">
+  <h2 class="heading">Skills</h2>
 
-    <a href="https://siili.com">Siili Solutions</a>
+  
 
-    </h3> <span class="tenure">2017-02 — Present</span>
-                        <p>
-                            <p>Technology consulting and software development. Initial focus on 3D technologies,
-                                Mixed Reality research and prototyping. Current focus on Full Stack JavaScript.</p>
-                        </p>
-                        <ul>
-                            <li>Envisioning Experience Tribe member. I&#39;ve been learning designer skills
-                                such storytelling, typography, UI design, UX desig, and design systems.</li>
-                            <li>Focus on latest web technologies and full stack JavaScript. Some of the
-                                frameworks and libraries that I&#39;m currently using include: React, Redux,
-                                Webpack, GraphQL, ESLint, Babel, ES6.</li>
-                            <li>Participated in Lemminkäinen InfraHack hackathon was selected to pilot
-                                a HoloLens based solution for pavement industry.</li>
-                        </ul>
-                    </div>
-                    <div>
-                         <h3><em>Contractor</em>,
+  <div class="skill">
+    <span class="h6">Software Engineering</span>
+    <div class="progress">
+      <div class="progress-bar bg-blue" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+  
+</section>
+	
 
-    <a href="https://zoan.fi/">Zoan Oy</a>
+<section id="experience" class="green">
+  <h2 class="heading">Experience</h2>
+  <div id="timeline">
+    
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content  right ">
+        <span class="date">2018 - 2019</span>
+        <h6 class="h3 my-2">Compile Oy</h6>
+        <p class="">Web applications development.</p>
+      </div>
+    </div>
+    
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content ">
+        <span class="date">2017 - 2018</span>
+        <h6 class="h3 my-2">Siili Solutions</h6>
+        <p class="">Web applications development. </p>
+      </div>
+    </div>
+    
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content  right ">
+        <span class="date">2016 - 2017</span>
+        <h6 class="h3 my-2">Self-employed</h6>
+        <p class="">Learning new things. Small freelance gigs and volunteer work related to 3D technologies. Worked with Zoan Oy, 3D Render Oy, Sessin Software Ltd, Finnish Virtual Reality Association.</p>
+      </div>
+    </div>
+    
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content ">
+        <span class="date">2016 - 2017</span>
+        <h6 class="h3 my-2">City of Helsinki</h6>
+        <p class="">Temporary software engineering position which involved an internship and national service. Work was mostly web development related to geographical information systems. Strong emphasis on open source principles.</p>
+      </div>
+    </div>
+    
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content  right ">
+        <span class="date">2012 - 2014</span>
+        <h6 class="h3 my-2">Portalify</h6>
+        <p class="">Frontend developer. Applications for TETRA networks.</p>
+      </div>
+    </div>
+    
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content ">
+        <span class="date">2010 - 2012</span>
+        <h6 class="h3 my-2">Meshcom Technologies</h6>
+        <p class="">Embedded linux and network programming.</p>
+      </div>
+    </div>
+    
+  </div>
 
-    </h3> <span class="tenure">2017-01 — 2017-02</span>
-                        <p>
-                            <p>Virtual Reality content creation with Unreal Engine.</p>
-                        </p>
-                        <ul></ul>
-                    </div>
-                    <div>
-                         <h3><em>Contractor</em>,
+</section>
+	
 
-    <a href="http://sessio.mobi/">Session Software Ltd</a>
+<section class="blue">
+  <h2 class="heading">Services</h2>
 
-    </h3> <span class="tenure">2016-08 — 2016-10</span>
-                        <p>
-                            <p>Back-End development for visual collaboration tool app. SaaS architecture,
-                                Node.js, CouchDB.</p>
-                        </p>
-                        <ul></ul>
-                    </div>
-                    <div>
-                         <h3><em>Contractor</em>,
+  <div class="row justify-content-md-center text-center">
 
-    <a href="http://www.3drender.fi/">3D Render Oy</a>
+    
 
-    </h3> <span class="tenure">2016-09 — 2016-10</span>
-                        <p>
-                            <p>VR/AR content creation for architectural visualization. Worked with hand
-                                held AR and Unity Game Engine.</p>
-                        </p>
-                    </div>
-                    <div>
-                         <h3><em>Senior Consultant</em>,
+    <div class="col-12 col-lg-6 col-md-6 mb-3">
+      <div class="card p-4">
+        <i class="mt-3  fa fa-pencil-ruler fa-3x"></i>
+        <h5 class="mt-4">Frontend development</h5>
+        <p class="text-muted">Frontend development with modern JavaScript.</p>
+      </div>
+    </div>
 
-    <a href="https://www.houston-inc.com/">Houston Inc</a>
+    
 
-    </h3> <span class="tenure">2016-02 — 2016-03</span>
-                        <p>
-                            <p>Front-End development for IoT applications. Work with Angular framework.</p>
-                        </p>
-                    </div>
-                    <div>
-                         <h3><em>Kumppanikoodari (Software Engineer)</em>,
+    <div class="col-12 col-lg-6 col-md-6 mb-3">
+      <div class="card p-4">
+        <i class="mt-3  fa fa-pen-nib fa-3x"></i>
+        <h5 class="mt-4">Fullstack development</h5>
+        <p class="text-muted">Fullstack JavaScript development</p>
+      </div>
+    </div>
 
-    <a href="https://dev.hel.fi/">City of Helsinki</a>
+    
 
-    </h3> <span class="tenure">2015-06 — 2015-12</span>
-                        <p>
-                            <p>Software developer working primarily on (Service Map)[<a href="https://palvelukartta.hel.fi/">https://palvelukartta.hel.fi/</a>].</p>
-                        </p>
-                        <ul>
-                            <li>Software development for Six City Strategy(6Aika). Broad goals were open
-                                innovation platforms, open data and interfaces, and open participation
-                                and customership.</li>
-                            <li>Open source: git/github, open source development principles, open source
-                                licencing</li>
-                            <li>Web technologies: JavaScript, CoffeeScript, Node.js, REST API&#39;s, GIS.</li>
-                        </ul>
-                    </div>
-                    <div>
-                         <h3><em>Software Engineer</em>,
+    <div class="col-12 col-lg-6 col-md-6 mb-3">
+      <div class="card p-4">
+        <i class="mt-3  fa fa-pen-nib fa-3x"></i>
+        <h5 class="mt-4">3D Technologies and game development</h5>
+        <p class="text-muted">Unity engine, Unreal engine, GLSL shader programming.</p>
+      </div>
+    </div>
 
-    <a href="http://www.portalify.com/">Portalify</a>
+    
 
-    </h3> <span class="tenure">2012-01 — 2014-01</span>
-                        <p>
-                            <p>Lead Front-End Developer. Developed web front-end for TETRA network applications
-                                and location tracking.</p>
-                        </p>
-                        <ul>
-                            <li>GIS Software, Tetra networks, Continuous Integration, Message Queues,
-                                Distributed software architectures, Virtualization.</li>
-                            <li>JavaScript, Perl, Jenkins, Git, RabbitMQ, Jenkins</li>
-                        </ul>
-                    </div>
-                    <div>
-                         <h3><em>Software Engineer</em>,
+    <div class="col-12 col-lg-6 col-md-6 mb-3">
+      <div class="card p-4">
+        <i class="mt-3  fa fa-pen-nib fa-3x"></i>
+        <h5 class="mt-4">XR Prototyping</h5>
+        <p class="text-muted"></p>
+      </div>
+    </div>
 
-    Meshcom Technologies
+    
+  </div>
+</section>
+</div>
 
-    </h3> <span class="tenure">2010-01 — 2012-01</span>
-                        <p>
-                            <p>Work on web based administration tool for an embedded Linux access point
-                                device.</p>
-                        </p>
-                        <ul>
-                            <li>Embedded Linux, Network protocols</li>
-                            <li>Programming: Bash, C, JavaScript</li>
-                        </ul>
-                    </div>
-                </section>
-                <hr>
-                <section id="education">
-                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
-                         <h2>education</h2>
+<div style="z-index: 4; position: relative;">
+	
+	
+</div>
 
-                    </header>
-                    <div>
-                        
-<h3>
+<div class="main-content">
+	
+<section id="contact" class="bg-light d-flex align-items-center" style="height: 100vh;">
+  <div class="container">
+      <h2 class="heading mb-3">Contact</h2>
 
-Helsinki University
+      <div class="text-success my-3">
+        
+      </div>
 
-</h3>
-<span class="tenure">2004-09 — 2009-06</span>| <span class="keywords">Programming fundamentals Java C Databases Shell scripting Web programming Data structures and algorithms Networks and Communications TCP/IP Protocol stack Security Software Development Methodologies Agile Methodologies Usability Interface Technologies Introduction to Artificial Intelligence Introduction to Statistics Linearalgebra and Matrix Calculus </span>
-                    </div>
-                </section>
-                <hr>
-                <section id="interests">
-                    <header> <span class="fa fa-lg fa-bicycle"></span> 
-                         <h2>interests</h2>
+      <form action="https://formspree.io/timo.aho@pm.me" method="post">
+        <div class="form-row">
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+            <label>Name</label>
+            <input type="text" class="form-control" name="name" placeholder="Name">
+          </div>
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6">
+            <label>Email</label>
+            <input type="email" class="form-control" name="_replyto" placeholder="Email">
+          </div>
+        </div>
+    
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Message" name="message" class="form-control" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+  </div>
+</section>		
+</div>
 
-                    </header>
-                    <div>
-                         <h3><em>Open Source</em></h3>
- <span class="tenure">Current</span>
+<script src="https://blog.uicard.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
-                        <p>Regular GitHub user and tinkerer.</p>
-                    </div>
-                    <div>
-                         <h3><em>Mixed Reality</em></h3>
- <span class="tenure">Current</span>
+</body>
 
-                        <p>Devoted the last three years of my life studying VR/AR.</p>
-                    </div>
-                    <div>
-                         <h3><em>Automation</em></h3>
- <span class="tenure">Current</span>
-
-                        <p>I have a RaspberryPi powered ongoing home automation project.</p>
-                    </div>
-                </section>
-            </div>
-        </main>
-    </body>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://portfolio-draft-zeukkari.herokuapp.com/js/main.js"></script>
 </html>
+	

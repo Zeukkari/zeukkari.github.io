@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+  
   <url>
-    <loc>https://zeukkari.github.io/categories/</loc>
+    <loc>https://portfolio-draft-zeukkari.herokuapp.com/categories/</loc>
     <priority>0</priority>
   </url>
-
+  
   <url>
-    <loc>https://zeukkari.github.io/tags/</loc>
+    <loc>https://portfolio-draft-zeukkari.herokuapp.com/tags/</loc>
     <priority>0</priority>
   </url>
-
+  
   <url>
-    <loc>https://zeukkari.github.io/</loc>
+    <loc>https://portfolio-draft-zeukkari.herokuapp.com/</loc>
     <priority>0</priority>
   </url>
-
+  
 </urlset>
